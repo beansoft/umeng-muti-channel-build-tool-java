@@ -5,7 +5,7 @@
 
 作者: 刘长炯 BeanSoft@126.com (微信号 weblogic ). 
 
-本项目核心功能与友盟官方的开源.NET版(https://github.com/umeng/umeng-muti-channel-build-tool)基本一致, 并为Mac系统进行了优化, 
+本项目核心功能与 [友盟官方的开源.NET版](https://github.com/umeng/umeng-muti-channel-build-tool)基本一致, 并为Mac系统进行了优化,
 有效利用Dock图标的功能来指示执行进度, 也可运行于Win,Linux平台. 曾稳定用于河狸家Android APP的打包达一年多之久.
 
 打包工具不能完全保证生成的Apk文件的正确性，建议开发者最好做抽样测试。

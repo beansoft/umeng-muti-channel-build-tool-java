@@ -30,9 +30,10 @@
 用法:<br>
 1. 如果没有安装JRE, 请访问 http://www.java.com/ 下载安装.<br>
 2. 复制 keystore 文件到jar 所在目录, 双击 out/androidchannel.jar, 点击"偏好设置..."按钮,
-修改签名所需信息, 然后浏览选择APK文件, 输入渠道列表(以换行隔开), 点击按钮"生成渠道包", 即可在"输出渠道包"目录下看到所有的产生的渠道包. 最终打包结果可以用"渠道包集成检测..."来查看是否成功.
+修改签名所需信息, 然后浏览选择APK文件, 输入渠道列表(以换行隔开), 点击按钮"生成渠道包", 即可在"输出渠道包"目录下看到所有的产生的渠道包.
+最终打包结果可以用"渠道包集成检测..."来查看是否成功.
 
-备注: androidchannel.jar 也可复制到其它目录下面单独执行, 同时暂时需要复制conf/目录下的文件.
+备注: androidchannel.jar 也可复制到其它目录下面单独执行, 同时暂时需要复制conf/目录下的示例配置文件.
 
 ## 关于test.keystore
 此文件用下列命令生成:
@@ -51,9 +52,9 @@ keytool -genkey -keyalg RSA -alias keystore -keystore test.keystore -storepass 1
 
 广告: Walle（瓦力）新一代渠道包打包神器的界面版本, 高度Mac集成, 支持安卓7, 闪电一般的打包速度, 100个渠道包只需要几秒钟, 开源地址: https://github.com/beansoftapp/wallegui
 
-Build on top of following projects:
-https://github.com/rampi/properties-util
-https://github.com/bulenkov/Darcula
-https://github.com/umeng/umeng-muti-channel-build-tool
-https://github.com/rednaga/axmlprinter
+Build on top of following projects:<br>
+https://github.com/rampi/properties-util<br>
+https://github.com/bulenkov/Darcula<br>
+https://github.com/umeng/umeng-muti-channel-build-tool<br>
+https://github.com/rednaga/axmlprinter<br>
 https://github.com/ntop001/AXMLEditor

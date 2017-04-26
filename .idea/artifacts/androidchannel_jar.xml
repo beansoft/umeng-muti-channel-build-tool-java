@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="androidchannel:jar">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="androidchannel.jar">
+      <element id="module-output" name="androidchannel" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/axmleditor.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/APKParser.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/properties-util.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/rsyntaxtextarea-2.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/darcula_jdk6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="axmleditor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/axmleditor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
